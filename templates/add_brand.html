@@ -3,9 +3,9 @@
 {% block title %}
 <title>Add New Brand</title>
 {% endblock %}
-   
+
 {% block mainheading %}
-Brand Details
+Add New Brand
 {% endblock %}
 
 {% block maincontent %}
@@ -25,11 +25,13 @@ Brand Details
                 <li class="mx-1"
                     style="color: white;padding-bottom: 5px; font-size: 40px; font-weight:300">&gt;</li>
                 <li class="nav-item">
-                    <a class="nav-link text-black" href="#" style="background-color: white; color: black; border-radius: 5px; padding: 5px 15px; height: 35px; line-height: 25px; text-decoration: none;">Add a Brand</a>
+                    <a class="nav-link text-black" href="#"
+                        style="background-color: white; color: black; border-radius: 5px; padding: 5px 15px; height: 35px; line-height: 25px; text-decoration: none;">Add
+                        a Brand</a>
                 </li>
             </ul>
         </div>
-    </div>  
+    </div>
 </nav>
 
 <!-- Form -->
@@ -47,18 +49,24 @@ Brand Details
             </div>
             <div class="mb-3">
                 <label for="location" class="form-label">Location</label>
-                <input type="text" name="location" id="location"  
+                <input type="text" name="location" id="location"
                     class="form-control" placeholder="Enter location" required>
             </div>
             <div class="mb-3">
-                <label for="principal_contact" class="form-label">Principal Contact</label>
-                <input type="text" name="principal_contact"  id="principal_contact" class="form-control" placeholder="Enter main contact person's name" pattern="^[A-Za-z\s]+$" required>
+                <label for="principal_contact" class="form-label">Principal
+                    Contact</label>
+                <input type="text" name="principal_contact"
+                    id="principal_contact" class="form-control"
+                    placeholder="Enter main contact person's name"
+                    pattern="^[A-Za-z\s]+$" required>
             </div>
             <div class="mb-3">
                 <label for="contact_no" class="form-label">Contact No.</label>
-                <input type="text" name="contact_no" id="contact_no" class="form-control" placeholder="Enter contact number (e.g., 03XXXXXXXXX)"
+                <input type="text" name="contact_no" id="contact_no"
+                    class="form-control"
+                    placeholder="Enter contact number (e.g., 03XXXXXXXXX)"
                     pattern="^03\d{9}$" required>
-            </div>   
+            </div>
 
             <!-- Brick Types Section -->
             <div class="mb-3 d-flex align-items-center">
